@@ -1,5 +1,0 @@
-path: /home/mihask79/rainbow/data
-train: /home/mihask79/rainbow/data/images/train
-val: /home/mihask79/rainbow/data/images/val
-nc: 1
-names: ['person']
