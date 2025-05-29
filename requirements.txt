@@ -1,0 +1,7 @@
+matplotlib
+numpy
+ultralytics
+opencv-python
+json
+Axes3D
+pathlib

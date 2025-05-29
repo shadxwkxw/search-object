@@ -36,6 +36,8 @@ python -m venv venv
 **Windows bash** source venv/Scripts/activate
 **Linux** source venv/bin/activate
 
+pip install -r requirements.txt
+
 python vanya.py
 
 python traectory.py
@@ -46,3 +48,8 @@ python traectory.py
 Для создания новой модели поменяйте в файле config.yaml пути к Вашему датасету (path), тренировочной выборки (train) и валидационной выборки (val)
 
 Или же если Вы хотите внедрить уже готовую модель, то добавьте ее в папку runs.
+
+### Обучение модели
+```bash
+yolo train model=yolo12n.pt data=config.yaml epochs=15 imgsz=1280 batch=16 device=0
+```
